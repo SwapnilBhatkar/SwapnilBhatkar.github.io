@@ -1,0 +1,7 @@
+mount -B /data/drive /var/snap/nextcloud/common/nextcloud/data/swapnil.7/files/Drive
+sudo snap restart nextcloud
+sudo snap disable nextcloud
+sudo snap enable nextcloud
+sudo snap list
+sudo snap refresh core
+sudo snap remove nextcloud
